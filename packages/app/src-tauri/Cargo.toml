@@ -20,7 +20,7 @@ serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.8.2", features = [ "process-relaunch", "shell-execute", "http-all", "path-all", "updater", "shell-open", "dialog-all", "fs-all", "global-shortcut-all", "shell-sidecar", "window-all", "devtools"] }
 tauri-plugin-persisted-scope = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 tauri-plugin-window-state = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
-tar = "0.4.40"
+tar = "0.4.45"
 flate2 = "1.0.27"
 fix-path-env = { git = "https://github.com/tauri-apps/fix-path-env-rs" }
 
