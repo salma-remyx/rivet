@@ -59,6 +59,9 @@
   "dependenciesMeta": {
     "@pnpm/exe@8.8.0": {
       "unplugged": true
+    },
+    "esbuild@0.19.5": {
+      "unplugged": true
     }
   }
 }

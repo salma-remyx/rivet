@@ -109,6 +109,9 @@ export * from './nodes/VectorStoreNode.js';
 import { vectorNearestNeighborsNode } from './nodes/VectorNearestNeighborsNode.js';
 export * from './nodes/VectorNearestNeighborsNode.js';
 
+import { semanticCacheNode } from './nodes/SemanticCacheNode.js';
+export * from './nodes/SemanticCacheNode.js';
+
 import { hashNode } from './nodes/HashNode.js';
 export * from './nodes/HashNode.js';
 
@@ -288,6 +291,7 @@ export const registerBuiltInNodes = (registry: NodeRegistration) => {
     .register(getEmbeddingNode)
     .register(vectorStoreNode)
     .register(vectorNearestNeighborsNode)
+    .register(semanticCacheNode)
     .register(hashNode)
     .register(abortGraphNode)
     .register(raceInputsNode)
