@@ -11,6 +11,19 @@ observed_landing_zones:
     branch: automatic-prompt-optimization-with-prompt-distillation
     timestamp: '2026-07-24T20:34:46Z'
   last_observed: '2026-07-24T20:34:46Z'
+- path: .yarn/cache/
+  shape_tags:
+  - library-shape-public-api
+  - registry-add
+  confirmed_by:
+  - arxiv: 2411.05276v3
+    mode: Mode 2 (adapted port)
+    call_site_specifics: 'Registered in `registerBuiltInNodes` (packages/core/src/model/Nodes.ts),
+      which runs at module load (globalRivetNodeRegistry) and is invoked by the app-executor
+      CLI (executor.mts) and the Rivet app at '
+    branch: gpt-semantic-cache-reducing-llm-costs-and-latency-via-semant
+    timestamp: '2026-07-30T10:48:14Z'
+  last_observed: '2026-07-30T10:48:14Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -27,4 +40,4 @@ rejected_shapes:
   - arxiv: 2607.21412v1
     timestamp: '2026-07-26T06:09:46Z'
 coordination_signals: []
-last_updated: '2026-07-29T19:12:58Z'
+last_updated: '2026-07-30T10:48:14Z'
