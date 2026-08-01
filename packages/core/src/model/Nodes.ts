@@ -59,10 +59,12 @@ import { loopControllerNode } from './nodes/LoopControllerNode.js';
 export * from './nodes/AssemblePromptNode.js';
 
 import { trimChatMessagesNode } from './nodes/TrimChatMessagesNode.js';
+import { compactChatMessagesNode } from './nodes/CompactChatMessagesNode.js';
 export * from './nodes/LoopControllerNode.js';
 
 import { extractYamlNode } from './nodes/ExtractYamlNode.js';
 export * from './nodes/TrimChatMessagesNode.js';
+export * from './nodes/CompactChatMessagesNode.js';
 
 import { externalCallNode } from './nodes/ExternalCallNode.js';
 export * from './nodes/ExternalCallNode.js';
@@ -273,6 +275,7 @@ export const registerBuiltInNodes = (registry: NodeRegistration) => {
     .register(assemblePromptNode)
     .register(loopControllerNode)
     .register(trimChatMessagesNode)
+    .register(compactChatMessagesNode)
     .register(extractYamlNode)
     .register(externalCallNode)
     .register(extractObjectPathNode)
