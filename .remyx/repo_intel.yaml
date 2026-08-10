@@ -28,7 +28,14 @@ observed_landing_zones:
     call_site_specifics: ''
     branch: agentic-context-management-solving-agent-memory-and-cost-by-
     timestamp: '2026-08-01T08:49:53Z'
-  last_observed: '2026-08-01T08:49:53Z'
+  - arxiv: 2607.24663v1
+    mode: Mode 2 (adapted port)
+    call_site_specifics: "registerBuiltInNodes in packages/core/src/model/Nodes.ts\
+      \ \u2014 the new node is .register()-ed there (next to datasetNearestNeighborsNode),\
+      \ feeding globalRivetNodeRegistry, which the Rivet app enumerates ("
+    branch: a-corrective-agentic-hybrid-rag-and-an-operations-grounded-e
+    timestamp: '2026-08-10T21:57:58Z'
+  last_observed: '2026-08-10T21:57:58Z'
 - path: packages/core/src/model/
   shape_tags:
   - registry-add
@@ -63,4 +70,4 @@ rejected_shapes:
   - arxiv: 2312.04511v3
     timestamp: '2026-08-07T23:54:08Z'
 coordination_signals: []
-last_updated: '2026-08-10T04:10:48Z'
+last_updated: '2026-08-10T21:57:58Z'
