@@ -29,6 +29,18 @@ observed_landing_zones:
     branch: agentic-context-management-solving-agent-memory-and-cost-by-
     timestamp: '2026-08-01T08:49:53Z'
   last_observed: '2026-08-01T08:49:53Z'
+- path: packages/core/src/model/
+  shape_tags:
+  - registry-add
+  confirmed_by:
+  - arxiv: 2608.02113v1
+    mode: Mode 2 (adapted port)
+    call_site_specifics: "registerBuiltInNodes in packages/core/src/model/Nodes.ts\
+      \ \u2014 the new node is .register()-ed into the built-in node registry, the\
+      \ same integration surface used by the sibling TrimChatMessagesNode; that r"
+    branch: memarbiter-decision-time-memory-arbitration-for-long-horizon
+    timestamp: '2026-08-10T04:10:48Z'
+  last_observed: '2026-08-10T04:10:48Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -51,4 +63,4 @@ rejected_shapes:
   - arxiv: 2312.04511v3
     timestamp: '2026-08-07T23:54:08Z'
 coordination_signals: []
-last_updated: '2026-08-07T23:54:08Z'
+last_updated: '2026-08-10T04:10:48Z'
