@@ -181,6 +181,9 @@ export * from './nodes/SplitNode.js';
 import { datasetNearestNeighborsNode } from './nodes/DatasetNearestNeigborsNode.js';
 export * from './nodes/DatasetNearestNeigborsNode.js';
 
+import { reciprocalRankFusionNode } from './nodes/ReciprocalRankFusionNode.js';
+export * from './nodes/ReciprocalRankFusionNode.js';
+
 import { getDatasetRowNode } from './nodes/GetDatasetRowNode.js';
 export * from './nodes/GetDatasetRowNode.js';
 
@@ -312,6 +315,7 @@ export const registerBuiltInNodes = (registry: NodeRegistration) => {
     .register(getAllDatasetsNode)
     .register(splitNode)
     .register(datasetNearestNeighborsNode)
+    .register(reciprocalRankFusionNode)
     .register(getDatasetRowNode)
     .register(sliceNode)
     .register(extractMarkdownCodeBlocksNode)
