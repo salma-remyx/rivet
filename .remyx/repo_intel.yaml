@@ -47,7 +47,14 @@ observed_landing_zones:
       \ same integration surface used by the sibling TrimChatMessagesNode; that r"
     branch: memarbiter-decision-time-memory-arbitration-for-long-horizon
     timestamp: '2026-08-10T04:10:48Z'
-  last_observed: '2026-08-10T04:10:48Z'
+  - arxiv: 2608.06370v1
+    mode: Mode 2 (adapted port)
+    call_site_specifics: Registered in registerBuiltInNodes (packages/core/src/model/Nodes.ts:340),
+      the same built-in-node path as mcpToolCallNode; reached at runtime by the existing
+      GraphProcessor via globalRivetNodeRegistry
+    branch: the-bitter-lesson-of-tool-calling
+    timestamp: '2026-08-13T07:55:03Z'
+  last_observed: '2026-08-13T07:55:03Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -72,4 +79,4 @@ rejected_shapes:
   - arxiv: 2608.05095v1
     timestamp: '2026-08-12T11:34:11Z'
 coordination_signals: []
-last_updated: '2026-08-12T11:34:11Z'
+last_updated: '2026-08-13T07:55:03Z'
