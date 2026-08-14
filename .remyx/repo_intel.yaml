@@ -54,7 +54,14 @@ observed_landing_zones:
       GraphProcessor via globalRivetNodeRegistry
     branch: the-bitter-lesson-of-tool-calling
     timestamp: '2026-08-13T07:55:03Z'
-  last_observed: '2026-08-13T07:55:03Z'
+  - arxiv: 2407.21424v2
+    mode: Mode 2 (adapted port)
+    call_site_specifics: "registerBuiltInNodes in packages/core/src/model/Nodes.ts:301,\
+      \ which builds globalRivetNodeRegistry (Nodes.ts:344) \u2014 the registry the\
+      \ Rivet app imports (packages/app/src/hooks/useAiGraphBuilder.ts:476)"
+    branch: cost-effective-hallucination-detection-for-llms
+    timestamp: '2026-08-14T05:50:05Z'
+  last_observed: '2026-08-14T05:50:05Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -79,4 +86,4 @@ rejected_shapes:
   - arxiv: 2608.05095v1
     timestamp: '2026-08-12T11:34:11Z'
 coordination_signals: []
-last_updated: '2026-08-13T07:55:03Z'
+last_updated: '2026-08-14T05:50:05Z'
