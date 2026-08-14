@@ -139,6 +139,9 @@ export * from './nodes/CompareNode.js';
 import { evaluateNode } from './nodes/EvaluateNode.js';
 export * from './nodes/EvaluateNode.js';
 
+import { hallucinationScoreNode } from './nodes/HallucinationScoreNode.js';
+export * from './nodes/HallucinationScoreNode.js';
+
 import { numberNode } from './nodes/NumberNode.js';
 export * from './nodes/NumberNode.js';
 
@@ -298,6 +301,7 @@ export const registerBuiltInNodes = (registry: NodeRegistration) => {
     .register(booleanNode)
     .register(compareNode)
     .register(evaluateNode)
+    .register(hallucinationScoreNode)
     .register(numberNode)
     .register(randomNumberNode)
     .register(shuffleNode)
